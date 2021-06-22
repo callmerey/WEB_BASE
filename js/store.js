@@ -52,7 +52,7 @@ $(document).ready(function displayProduct() {
             '<a href="">' +
             '<div class="inner_content clearfix">' +
             '<div class="product_image">' +
-            '<img src="/sunfhouse/images/' + cartArray[i].image + '" class="img-responsive" alt="">' +
+            '<img src="./images/' + cartArray[i].image + '" class="img-responsive" alt="">' +
             '<div class="mask">' +
             '<div class="info"> ' +
             '<a href="javascript:void(0)" data-name="' + cartArray[i].name + '" data-image="' + cartArray[i].image + '" data-title="' + cartArray[i].title + '" data-price="' + cartArray[i].price + '" data-id="' + cartArray[i].id + '" class="add-to-cart">Add to cart</a></div>' +
@@ -220,7 +220,7 @@ function displayCart() {
             "<td>" +
             "<table>" +
             "<tr>" +
-            "<td>" + '<img width="200" height="250" src="/sunfhouse/images/' + cartArray[i].image + '" class="img-responsive"></td>' +
+            "<td>" + '<img width="200" height="250" src="./images/' + cartArray[i].image + '" class="img-responsive"></td>' +
             "<td>" + '<b style="margin-top: 100px"><div class="name_item" data-id="' + cartArray[i].name + '">' + cartArray[i].name + '</div></b>' +
             "<p style='width: 256px;'>" + cartArray[i].title + "</p>" +
             '<div style="margin-bottom: 40px">' +

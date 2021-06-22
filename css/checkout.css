@@ -1,12 +1,3 @@
-@import './constants.css';
-@import './component/general.css';
-@import './component/header.css';
-@import './component/main.css';
-@import './component/brand.css';
-@import './component/insta-feed.css';
-@import './component/social-banner.css';
-@import './component/footer.css';
-@import './component/footer-bottom.css';
 .header {
     margin-bottom: -8%;
     padding-bottom: 10%;
