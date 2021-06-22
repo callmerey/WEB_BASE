@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sunfhouse/css/indel.css">
+    <link rel="stylesheet" href="/sunfhouse/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/sunfhouse/css/indel.css">
+    <link rel="stylesheet" href="/sunfhouse/css/style.css">
+    <link rel="stylesheet" href="/sunfhouse/css/product_detail.css">
+    <script src="/sunfhouse/js/index.js"></script>
+    <script src="/sunfhouse/js/store.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="index.html"><img src="/sunfhouse/images/logo.png" alt=""></a>
+                </div>
+                <div class="header_right">
+                    <ul class="social">
+                        <li>
+                            <a href=""> <i class="fb"> </i> </a>
+                        </li>
+                        <li><a href=""><i class="tw"> </i> </a></li>
+                        <li><a href=""><i class="utube"> </i> </a></li>
+                        <li><a href=""><i class="pin"> </i> </a></li>
+                        <li><a href=""><i class="instagram"> </i> </a></li>
+                    </ul>
+                    <div class="lang_list">
+                        <div class="dropdown"><span class="old"><select tabindex="4" class="" id="EasyDropDownE626DF">
+                  <option value="" class="label">En</option>
+                  <option value="1">English</option>
+                  <option value="2">French</option>
+                  <option value="3">German</option>
+                </select></span><span class="selected">En</span><span class="carat"></span>
+                            <div>
+                                <ul>
+                                    <li>English</li>
+                                    <li>French</li>
+                                    <li>German</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="index-banner">
+                <div class="wmuSlider example1" style="overflow: hidden; height: 534px;">
+                    <div class="wmuSliderWrapper">
+                        <article style="position: relative; width: 100%; opacity: 1;">
+                            <div class="banner-wrap">
+                                <div class="bannertop_box">
+                                    <ul class="login">
+                                        <li class="login_text"><a href="login.html">Login</a></li>
+                                        <li class="wish"><a href="#">Wish List</a></li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                    <div class="cart_bg">
+                                        <ul class="cart">
+                                            <i class="cart_icon"> <i style="font-size: 40px; color: aqua;" class="fas fa-cart-arrow-down"></i></i>
+                                            <p class="cart_desc"><span class="total-cart"> </span><br><span class="yellow"><span class="total-count"><span> </span> </span>
+                                                </span><span>items</span></p>
+                                            <div class="clearfix"></div>
+                                        </ul>
+                                        <ul class="product_control_buttons">
+                                            <li>
+                                                <a href="#" class="remove_cart"><i style="font-size: 30px;" class="far fa-trash-alt"></i></a>
+                                            </li>
+                                            <form action="cart.html">
+                                                <li><input type="submit" onclick="displayCart()" value="edit" style="background: #e1ffff;border: none;border-radius: 10px;">
+                                                </li>
+                                            </form>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <ul class="quick_access">
+                                        <li class="view_cart"><a href="#">View Cart</a></li>
+                                        <li class="check"><a href="#">Checkout</a></li>
+                                        <div class="clearfix"></div>
+                                    </ul>
+                                    <div class="search">
+                                        <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                                        <input type="submit" value="">
+                                    </div>
+                                    <div class="welcome_box">
+                                        <h2>Chào mừng bạn đến với Surfhouse</h2>
+                                        <p>Hệ thống cửa hàng trực tuyến siêu cấp vip pro tại Local ThanhSon</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+        </div>
+    </nav>
+    <div class="main" style="background-color: #f8f8f8;">
+        <div class="content_box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="menu_box">
+                            <h3 class="menu_head">Menu</h3>
+                            <ul class="nav">
+                                <li><a href="apparel.html">About</a></li>
+                                <li><a href="apparel.html">Apparel</a></li>
+                                <li><a href="apparel.html">Surf Apparel</a></li>
+                                <li><a href="apparel.html">Windsurf</a></li>
+                                <li><a href="apparel.html">Kitesurf</a></li>
+                                <li><a href="apparel.html">Accessories</a></li>
+                                <li><a href="apparel.html">Sale</a></li>
+                                <li><a href="apparel.html">Brands</a></li>
+                                <li><a href="apparel.html">Blog</a></li>
+                                <li><a href="apparel.html">Gadgets</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_box">
+                            <h3 class="menu_head">Category options</h3>
+                            <ul class="nav">
+                                <li><a href="apparel.html">MEN</a></li>
+                                <li><a href="apparel.html">Women</a></li>
+                                <li><a href="apparel.html">KIDS</a></li>
+                                <li><a href="apparel.html">wetsuits</a></li>
+                                <li><a href="apparel.html">outerwear</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_box">
+                            <h3 class="menu_head">Brand options</h3>
+                            <ul class="nav">
+                                <li><a href="apparel.html">billabong</a></li>
+                                <li><a href="apparel.html">element</a></li>
+                                <li><a href="apparel.html">o'neill</a></li>
+                                <li><a href="apparel.html">okaley</a></li>
+                                <li><a href="apparel.html">reef</a></li>
+                                <li><a href="apparel.html">quiksiliver</a></li>
+                                <li><a href="apparel.html">ripcurl</a></li>
+                                <li><a href="apparel.html">jackss</a></li>
+                            </ul>
+                        </div>
+                        <div class="tags">
+                            <h4 class="tag_head">Tags Widget</h4>
+                            <ul class="tags_links">
+                                <li><a href="#">Kitesurf</a></li>
+                                <li><a href="#">Super</a></li>
+                                <li><a href="#">Duper</a></li>
+                                <li><a href="#">Theme</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Equipment</a></li>
+                                <li><a href="#">Best</a></li>
+                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Super</a></li>
+                                <li><a href="#">Duper</a></li>
+                                <li><a href="#">Theme</a></li>
+                                <li><a href="#">Responsiv</a></li>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Equipment</a></li>
+                            </ul>
+                            <a href="#" class="link1">View all tags</a>
+                        </div>
+                        <div class="side_banner">
+                            <div class="banner_img"><img src="./sunfhouse/images/pic9.jpg" class="img-responsive" alt=""></div>
+                            <div class="banner_holder">
+                                <h3>Now <br> is <br> Open!</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <!---728x90--->
+                        <div class="dreamcrub">
+                            <ul class="breadcrumbs">
+                                <li class="home">
+                                    <a href="index.html" title="Go to Home Page">Home</a>&nbsp;
+                                    <span>&gt;</span>
+                                </li>
+                                <li class="home">&nbsp; Apparel&nbsp;
+                                    <span>&gt;</span>&nbsp;
+                                </li>
+                                <li class="women">
+                                    Women
+                                </li>
+                            </ul>
+                            <ul class="previous">
+                                <li><a href="index.html">Back to Previous Page</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="singel_right">
+                            <div class="labout span_1_of_a1">
+                                <!-- start product_slider -->
+
+                                <div class="flexslider">
+
+                                    <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                                        <ul class="slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-897px, 0px, 0px);">
+                                            <li data-thumb="/sunfhouse/images/s3.jpg" class="clone" style="width: 299px; float: left; display: block;">
+                                                <div class="thumb-image"> <img src="/sunfhouse/images/" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                                            </li>
+                                            <li data-thumb="/sunfhouse/images/s1.jpg" style="width: 299px; float: left; display: block;" class="">
+                                                <div class="thumb-image"> <img src="images/smal.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                                            </li>
+                                            <li data-thumb="/sunfhouse/images/s2jpg" style="width: 299px; float: left; display: block;" class="">
+                                                <div class="thumb-image"> <img src="images/smal1.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                                            </li>
+                                            <li data-thumb="/sunfhouse/images/s3.jpg" style="width: 299px; float: left; display: block;" class="flex-active-slide">
+                                                <div class="thumb-image"> <img src="images/smal2.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                                            </li>
+                                            <li data-thumb="/sunfhouse/images/s1.jpg" style="width: 299px; float: left; display: block;" class="clone">
+                                                <div class="thumb-image"> <img src="images/smal.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <ol class="flex-control-nav flex-control-thumbs">
+                                        <li><img src="/sunfhouse/images/s1.jpg" class=""></li>
+                                        <li><img src="/sunfhouse/images/s2.jpg" class=""></li>
+                                        <li><img src="/sunfhouse/images/s3.jpg" class="flex-active"></li>
+                                    </ol>
+                                    <ul class="flex-direction-nav">
+                                        <li><a class="flex-prev" href="#">Previous</a></li>
+                                        <li><a class="flex-next" href="#">Next</a></li>
+                                    </ul>
+                                </div>
+                                <!-- end product_slider -->
+                            </div>
+                            <div class="cont1 span_2_of_a1">
+                                <h1 class="name_product">Peeky Cropped</h1>
+                                <ul class="rating">
+                                    <li>
+                                        <a class="product-rate" href="#"> <label> </label></a> <span> </span></li>
+                                    <div class="clearfix"></div>
+                                </ul>
+                                <div class="price_single">
+                                    <!-- span class="reducedfrom">$140.00</span> -->
+                                    <span class="actual">$120.00</span> <span style="margin-left: -26px;">VNĐ</span>
+                                    <a href="#"></a>
+                                </div>
+                                <h2 class="quick">Quick Overview:</h2>
+                                <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                                <ul class="size">
+                                    <h3>Size</h3>
+                                    <li><a href="#">25</a></li>
+                                    <li><a href="#">26</a></li>
+                                    <li><a href="#">27</a></li>
+                                    <li><a href="#">28</a></li>
+                                    <li><a href="#">29</a></li>
+                                    <li><a href="#">30</a></li>
+                                    <li><a href="#">31</a></li>
+                                    <li><a href="#">32</a></li>
+                                    <li><a href="#">33</a></li>
+                                </ul>
+                                <ul class="size">
+                                    <h3>Length</h3>
+                                    <li><a href="#">32</a></li>
+                                    <li><a href="#">34</a></li>
+                                </ul>
+                                <ul class="product-qty">
+                                    <span>Quantity:</span>
+                                    <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                              </select>
+                                </ul>
+                                <div class="btn_form">
+                                    <form>
+                                        <button href="#" class="add-to" value="Add to Cart" title="">add to cart</a>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <ul class="footer_social">
+                <li>
+                    <a href="#"> <i class="fb"> </i> </a>
+                </li>
+                <li><a href="#"><i class="tw"> </i> </a></li>
+                <li><a href="#"><i class="pin"> </i> </a></li>
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/sunfhouse/js/store.js"></script>
+
+</html>
