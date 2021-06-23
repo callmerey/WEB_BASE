@@ -45,7 +45,6 @@ body a {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    background-size: 100%;
 }
 
 .header-top {
@@ -2857,4 +2856,109 @@ p.cart a {
 
 .col_1_of_3:nth-child(3n+4) {
     margin-left: 0px;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    .header {}
+}
+
+@media (max-width: 760px) {
+    .header {
+        height: 300px;
+    }
+    .header-top {}
+    .logo {}
+    .ima_logo {
+        width: 50%;
+    }
+    .header_right {
+        margin-top: 0px;
+        height: 12px;
+    }
+    ul.social {
+        margin: 0px;
+        width: 80px;
+    }
+    .index-banner {
+        height: 325px;
+    }
+    .welcome_box {
+        display: none;
+    }
+    .bannertop_box {
+        width: 50%;
+        margin-top: 80px;
+    }
+    .side_banner {
+        display: none;
+    }
+    .container1 {
+        width: 100%;
+    }
+    ul.brand_icons li {
+        width: 12%;
+        margin: 0px 3px 0px 0px;
+    }
+    ul.brand_icons li:nth-child(1) {
+        width: 12%;
+        margin-left: 10px;
+    }
+    ul.brand_icons li:nth-child(6) {
+        width: 12%;
+    }
+    ul.instagram_grid li {
+        width: 13%;
+    }
+    .instagram_top {
+        padding: 2px;
+    }
+    ul.footer_social {
+        margin-left: -23px;
+    }
+    .product_container {
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .sale-box span.on_sale,
+    .sale-box1 span.on_sale1 {
+        width: 103px;
+        font-size: 8px;
+    }
+    .product_control_buttons {
+        width: 18%;
+    }
+    ul.product_control_buttons li a {
+        font-size: 20px;
+    }
+    .col-md-3 {
+        width: 100% !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    ul.nav1 {
+        display: none;
+    }
+    .tags_links {
+        display: none;
+    }
+    .article_links {
+        display: none;
+    }
+    .view .mask,
+    .view .content {
+        top: 95px;
+        left: 42px;
+    }
+    .cart_desc {
+        font-size: 12px !important;
+    }
+    .row1 {
+        display: none;
+    }
+}
+
+.remove_cart {
+    font-size: 30px !important;
 }

@@ -40,6 +40,7 @@ var product_js = [{
 ]
 
 sessionStorage.setItem('products', JSON.stringify(product_js));
+
 $(document).ready(function displayProduct() {
     var cartArray = product_js;
     var output = "";
@@ -223,10 +224,7 @@ function displayCart() {
             "<td>" + '<img width="200" height="250" src="./images/' + cartArray[i].image + '" class="img-responsive"></td>' +
             "<td>" + '<b style="margin-top: 100px"><div class="name_item" data-id="' + cartArray[i].name + '">' + cartArray[i].name + '</div></b>' +
             "<p style='width: 256px;'>" + cartArray[i].title + "</p>" +
-            '<div style="margin-bottom: 40px">' +
-            '<i class="fab fa-facebook-f"></i>' +
-            '<i style="margin-left: 20px" class="fab fa-twitter"></i>' +
-            '<i style="margin-left: 20px" class="fab fa-instagram-square"></i>' +
+
             "</div>" +
             "</td>" +
             "</tr>" +
